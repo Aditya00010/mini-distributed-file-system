@@ -1,0 +1,21 @@
+{
+    "name": "MiniGFS",
+    "description": "Metadata for the MiniGFS project",
+    "version": "0.1.0",
+    "components": [
+        "master",
+        "client",
+        "chunk_server"
+    ],
+    "test.txt": {
+        "total_chunks": 2,
+        "chunk0_test.txt": 8001,
+        "chunk0_test.txt_replica1": 8002,
+        "chunk0_test.txt_replica2": 8003,
+        "chunk0_test.txt_replica3": 8004,
+        "chunk1_test.txt": 8002,
+        "chunk1_test.txt_replica1": 8003,
+        "chunk1_test.txt_replica2": 8004,
+        "chunk1_test.txt_replica3": 8005
+    }
+}

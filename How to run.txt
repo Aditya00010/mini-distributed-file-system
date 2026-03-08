@@ -1,0 +1,4 @@
+RUN this code in this way 
+1️⃣ master.py
+2️⃣ chunk_server.py (5 servers)
+3️⃣ client.py
